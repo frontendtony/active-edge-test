@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'SF Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Pro Semibold'), url('../fonts/SF-Pro-Display-Semibold.woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Pro Regular'), url('../fonts/SF-Pro-Text-Regular.woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Pro Light'), url('../fonts/SF-Pro-Text-Light.woff');
+}
