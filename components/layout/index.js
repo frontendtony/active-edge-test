@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import AppFooter from './AppFooter';
+import AppHeader from './AppHeader';
 
 const StyledPage = styled.div`
   display: flex;
@@ -8,13 +10,19 @@ const StyledPage = styled.div`
 
   > .main {
     flex-grow: 1;
+    width: 1300px;
+    max-width: 100vw;
+    margin: 30px auto;
+    padding: 30px;
   }
 `;
 
 const Layout = ({ children }) => {
   return (
     <StyledPage>
+      <AppHeader />
       <main className="main">{children}</main>
+      <AppFooter />
     </StyledPage>
   );
 };
