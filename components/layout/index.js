@@ -14,6 +14,7 @@ const StyledPage = styled.div`
     max-width: 100vw;
     margin: 30px auto;
     padding: 30px;
+    font-size: 16px;
   }
 `;
 

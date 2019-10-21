@@ -1,3 +1,4 @@
+import 'antd/dist/antd.css';
 import axios from 'axios';
 import AppLayout from 'layout';
 import App from 'next/app';
@@ -6,7 +7,7 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 import React from 'react';
 
-axios.defaults.baseURL = 'http://35.195.51.39:8030';
+axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
 
 const showProgressBar = delay => {
   const timer = setTimeout(() => NProgress.start(), delay);
